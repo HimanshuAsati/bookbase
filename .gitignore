@@ -1,0 +1,46 @@
+# --- Node ---
+node_modules/
+.env
+dist/
+build/
+coverage/
+.temp/
+.nyc_output/
+.cache/
+logs/
+*.log
+
+# --- Monorepo tools (Turbo, Nx, etc) ---
+.turbo/
+.out/
+
+# --- macOS ---
+.DS_Store
+
+# --- VS Code ---
+.vscode/
+
+# --- Testing ---
+__tests__/
+jest.config.js
+*.test.js
+*.test.ts
+*.spec.ts
+*.spec.js
+
+# --- Frontend build ---
+.next/
+*.tsbuildinfo
+
+# --- Packages (shared libs) ---
+*.tgz
+
+# --- Optional Extras ---
+*.swp
+*.bak
+*.orig
+
+# --- Local overrides ---
+.env.local
+.env.*.local
+

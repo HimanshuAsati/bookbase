@@ -1,0 +1,13 @@
+.
+├── apps
+│   ├── backend
+│   └── frontend
+├── docs
+└── packages
+    ├── types
+    │   ├── src
+    │   └── test
+    └── utils
+        └── src
+
+11 directories

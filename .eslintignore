@@ -1,1 +1,9 @@
 eslint.config.mjs
+dist
+**/dist
+**/*.d.ts
+**/*.js
+**/test/
+**/jest.config.ts
+**/vite.config.ts
+**/apps/frontend/setupTests.ts

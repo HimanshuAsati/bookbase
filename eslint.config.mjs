@@ -51,7 +51,7 @@ export default [
       '**/*.ts',
       '**/*.tsx',
     ],
-    ignores: ['**/dist/**', '**/node_modules/**'],
+    ignores: ['**/dist/**', '**/node_modules/**', '**/*.config.json'],
     languageOptions: {
       parser: tseslint.parser,
       parserOptions: {
